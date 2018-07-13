@@ -1,0 +1,45 @@
+{
+  "name": "match_puzzle",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-native-scripts": "1.1.0",
+    "jest-expo": "~19.0.0",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/ex-navigation": "^3.0.0",
+    "@expo/vector-icons": "^5.0.0",
+    "apsl-react-native-button": "^3.1.0",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "expo": "^19.0.0",
+    "firebase": "^4.2.0",
+    "react": "16.0.0-alpha.12",
+    "react-native": "^0.46.1",
+    "react-native-collapsible": "^0.9.0",
+    "react-native-easy-toast": "^1.0.6",
+    "react-native-global-props": "^1.1.1",
+    "react-native-keyboard-aware-scroll-view": "^0.2.9",
+    "react-native-loading-spinner-overlay": "^0.5.1",
+    "react-native-navbar": "^1.8.0",
+    "react-native-parallax-scroll-view": "^0.19.0",
+    "react-native-slider": "^0.10.0",
+    "react-native-storage": "^0.2.2",
+    "react-native-swipeable": "^0.6.0",
+    "react-navigation": "^1.0.0-beta.11",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  }
+}
